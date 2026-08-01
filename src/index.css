@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* CodePen-inspired dark palette */
+    --ink: #131417;
+    --surface: #1e1f26;
+    --surface-2: #2c303a;
+    --edge: #3a3f4b;
+    --text: #e8eaf0;
+    --text-muted: #9aa0ae;
+    --cp-yellow: #ffdd40;
+    --cp-green: #47cf73;
+    --cp-blue: #0ebeff;
+    --cp-pink: #ff3cac;
+    --cp-purple: #ae63e4;
+
+    /* shadcn tokens mapped to dark */
+    --background: 228 11% 8%;
+    --foreground: 220 13% 91%;
+    --card: 229 12% 13%;
+    --card-foreground: 220 13% 91%;
+    --popover: 229 12% 13%;
+    --popover-foreground: 220 13% 91%;
+    --primary: 197 100% 53%;
+    --primary-foreground: 228 11% 8%;
+    --secondary: 225 10% 20%;
+    --secondary-foreground: 220 13% 91%;
+    --muted: 225 10% 20%;
+    --muted-foreground: 221 8% 66%;
+    --accent: 225 10% 20%;
+    --accent-foreground: 220 13% 91%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 224 10% 26%;
+    --input: 224 10% 26%;
+    --ring: 197 100% 53%;
+    --radius: 0.625rem;
+    --sidebar-background: 229 12% 13%;
+    --sidebar-foreground: 220 13% 91%;
+    --sidebar-primary: 197 100% 53%;
+    --sidebar-primary-foreground: 228 11% 8%;
+    --sidebar-accent: 225 10% 20%;
+    --sidebar-accent-foreground: 220 13% 91%;
+    --sidebar-border: 224 10% 26%;
+    --sidebar-ring: 197 100% 53%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--ink);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC',
+      'Hiragino Sans GB', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: rgba(14, 190, 255, 0.3);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--ink);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--edge);
+    border-radius: 6px;
+    border: 2px solid var(--ink);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+  }
+}
+
+@layer components {
+  .font-code {
+    font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
+  }
+
+  /* subtle blueprint grid backdrop */
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+
+  /* scroll reveal */
+  .reveal {
+    opacity: 0;
+    transform: translateY(26px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* blinking caret */
+  .caret::after {
+    content: '▍';
+    margin-left: 2px;
+    color: var(--cp-green);
+    animation: blink 1s step-end infinite;
+  }
+
+  /* rainbow ring for avatar (CodePen profile vibe) — static */
+  .rainbow-ring {
+    background: conic-gradient(
+      from 180deg,
+      var(--cp-yellow),
+      var(--cp-green),
+      var(--cp-blue),
+      var(--cp-pink),
+      var(--cp-purple),
+      var(--cp-yellow)
+    );
+  }
+
+  .pen-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease,
+      border-color 0.25s ease;
+  }
+  .pen-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--text-muted);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  }
+
+  .glow-new {
+    box-shadow: 0 0 0 1px rgba(255, 221, 64, 0.55),
+      0 0 28px rgba(255, 221, 64, 0.18);
+  }
+
+  /* infinite stack marquee */
+  .marquee {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+      90deg,
+      transparent,
+      black 8%,
+      black 92%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      90deg,
+      transparent,
+      black 8%,
+      black 92%,
+      transparent
+    );
+  }
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 0.75rem;
+    animation: marquee-x 55s linear infinite;
+  }
+  .marquee-track.reverse {
+    animation-direction: reverse;
+    animation-duration: 65s;
+  }
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes marquee-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { transition: none; opacity: 1; transform: none; }
+  .marquee-track { animation: none; }
+}
