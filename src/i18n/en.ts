@@ -289,7 +289,7 @@ export const en = {
   journey: {
     comment: '$ git log --graph --pretty=career',
     heading: 'Career, version controlled',
-    sub: 'Every commit shipped something real.',
+    sub: 'Every commit delivers real value.',
     entries: [
       {
         hash: 'e7a3f91',

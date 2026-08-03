@@ -291,7 +291,7 @@ export const ja: Messages = {
   journey: {
     comment: '$ git log --graph --pretty=career',
     heading: 'キャリア、バージョン管理済み',
-    sub: 'すべてのコミットが実際の成果です。',
+    sub: 'すべてのコミットが価値を届けます。',
     entries: [
       {
         hash: 'e7a3f91',
