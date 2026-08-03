@@ -296,9 +296,9 @@ export const ja: Messages = {
       {
         hash: 'e7a3f91',
         type: 'role' as const,
-        title: 'ソフトウェアグループリーダー',
+        title: 'プロジェクトマネージャー · ソフトウェアグループリーダー',
         org: 'China DataCom Corporation Limited（中数通信息有限公司）',
-        period: '2021.03 — 2022.09',
+        period: '2019.07 — 2022.09',
         bullets: [
           'クロスファンクショナルチームを率い、エンタープライズWebプラットフォームの要件から本番リリースまでエンドツーエンドで担当',
           'コードレビュー、ブランチ戦略、CI/CD、障害トリアージのプロセスを定義し、納期の予測可能性を向上',
@@ -310,11 +310,11 @@ export const ja: Messages = {
         type: 'role' as const,
         title: 'ソフトウェアエンジニア',
         org: 'China DataCom Corporation Limited（中数通信息有限公司）',
-        period: '2017.07 — 2021.03',
+        period: '2017.07 — 2019.07',
         bullets: [
           '通信・政府プロジェクト向けにJava/SpringサービスとVue.js/jQueryフロントエンドを納入',
           'Linuxサーバーを管理し、監視・エラー処理・障害復旧を改善',
-          '技術力と納期遵守が評価されグループリーダーに昇進',
+          '技術力と納期遵守が評価され、2019年7月にプロジェクトマネージャー兼ソフトウェアグループリーダーに昇進',
         ],
       },
       {
