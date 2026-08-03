@@ -346,7 +346,7 @@ export const ja: Messages = {
   certifications: {
     comment: '// credentials.verify() ✓ すべて有効',
     heading: '資格と会員',
-    sub: '第三者機関の試験による認定。継続的に更新。',
+    sub: '継続的に維持、継続的に更新中...',
     newBadge: 'NEW',
     certs: [
       {

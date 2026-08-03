@@ -346,7 +346,7 @@ export const zh: Messages = {
   certifications: {
     comment: '// credentials.verify() ✓ 全部有效',
     heading: '专业认证与协会会员',
-    sub: '独立考试认证，持续更新维护。',
+    sub: '持续维护，持续更新中...',
     newBadge: '最新',
     certs: [
       {

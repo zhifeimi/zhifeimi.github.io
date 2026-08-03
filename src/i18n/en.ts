@@ -346,7 +346,7 @@ export const en = {
   certifications: {
     comment: '// credentials.verify() ✓ all valid',
     heading: 'Certifications & Memberships',
-    sub: 'Independently examined. Continuously renewed.',
+    sub: 'Continuously maintained, continuously updated...',
     newBadge: 'NEW',
     certs: [
       {
