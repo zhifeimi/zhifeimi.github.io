@@ -291,7 +291,7 @@ export const zh: Messages = {
   journey: {
     comment: '$ git log --graph --pretty=career',
     heading: '职业历程，版本可控',
-    sub: '每一次提交，都有真实交付。',
+    sub: '每一次提交，都有价值交付。',
     entries: [
       {
         hash: 'e7a3f91',
