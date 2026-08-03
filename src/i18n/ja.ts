@@ -382,7 +382,7 @@ export const ja: Messages = {
   education: {
     comment: '// education.ts',
     heading: '学歴',
-    sub: '修士号2つ。優等（Distinction）で卒業。近道なし。',
+    sub: '修士号2つ。Distinction 1つ。High Distinction 1つ。',
     items: [
       {
         degree: 'コンピュータサイエンス修士',

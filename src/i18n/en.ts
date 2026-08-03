@@ -382,7 +382,7 @@ export const en = {
   education: {
     comment: '// education.ts',
     heading: 'Education',
-    sub: 'Two master’s degrees. One distinction. Zero shortcuts.',
+    sub: 'Two master’s degrees. One distinction. One high distinction.',
     items: [
       {
         degree: 'Master of Computer Science',

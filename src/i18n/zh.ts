@@ -382,7 +382,7 @@ export const zh: Messages = {
   education: {
     comment: '// education.ts',
     heading: '教育背景',
-    sub: '两个硕士学位，一次 Distinction 优秀毕业，没有捷径。',
+    sub: '两个硕士学位，一个 Distinction，一个 High Distinction。',
     items: [
       {
         degree: '计算机科学硕士',
