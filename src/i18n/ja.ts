@@ -12,7 +12,7 @@ export const ja: Messages = {
     contact: '連絡先',
   },
   hero: {
-    available: '新しい機会を探しています',
+    available: '現在、新しい機会を探しています',
     hi: 'こんにちは、',
     name: 'Zhifei Mi',
     roles: [
@@ -44,7 +44,7 @@ export const ja: Messages = {
     ],
   },
   stats: [
-    { value: '7+', label: '年以上の経験' },
+    { value: '7+', label: '年の経験' },
     { value: '3', label: 'つの専門資格' },
     { value: '2', label: 'つの修士号' },
     { value: '4', label: 'つの専門協会会員' },
@@ -290,7 +290,7 @@ export const ja: Messages = {
   },
   journey: {
     comment: '$ git log --graph --pretty=career',
-    heading: 'キャリアをバージョン管理で',
+    heading: 'キャリア、バージョン管理済み',
     sub: 'すべてのコミットが実際の成果です。',
     entries: [
       {
@@ -382,7 +382,7 @@ export const ja: Messages = {
   education: {
     comment: '// education.ts',
     heading: '学歴',
-    sub: '修士号2つ。優秀賞1つ。近道なし。',
+    sub: '修士号2つ。優等（Distinction）で卒業。近道なし。',
     items: [
       {
         degree: 'コンピュータサイエンス修士',
@@ -410,7 +410,7 @@ export const ja: Messages = {
   contact: {
     comment: '// status: open_to_work',
     heading: '一緒に価値あるものを作りましょう。',
-    sub: '現在、新しい機会を受け付けています——ソフトウェアエンジニアリング、テクニカルリーダーシップ、データ/MLの職種。推薦者はご要望に応じて提供可能です。',
+    sub: '現在、新しい機会を探しています——ソフトウェアエンジニアリング、テクニカルリーダーシップ、データ/MLポジション。リファレンスはご要望に応じて提供可能です。',
     sendEmail: 'メールを送る',
     footer: '© 2026 Zhifei Mi · zhifeis.tech',
     builtWith: 'React、TypeScript、Tailwindで構築 · Vercelにデプロイ',

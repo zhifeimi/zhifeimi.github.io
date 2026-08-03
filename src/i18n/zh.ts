@@ -12,7 +12,7 @@ export const zh: Messages = {
     contact: '联系我',
   },
   hero: {
-    available: '正开放新的工作机会',
+    available: '正在寻求新的职业机会',
     hi: '你好，我是',
     name: 'Zhifei Mi',
     roles: [
@@ -47,12 +47,12 @@ export const zh: Messages = {
     { value: '7+', label: '年工作经验' },
     { value: '3', label: '项专业认证' },
     { value: '2', label: '个硕士学位' },
-    { value: '4', label: '个专业协会会员' },
+    { value: '4', label: '家专业协会会员' },
   ],
   projects: {
     comment: '// featured_projects.ts',
     heading: '精选项目',
-    sub: '上线产品、自托管基础设施，以及为电信、政府与企业客户交付的生产系统——端到端负责。',
+    sub: '上线产品、自托管基础设施，以及为电信、政府与企业客户交付的生产级系统——端到端负责。',
     moreOnGithub: '更多请见 GitHub',
     moreSub: '开源实验与工具',
     viewDetails: '查看详情',
@@ -83,14 +83,14 @@ export const zh: Messages = {
         category: '预约平台',
         period: '2026.03 — 至今',
         description:
-          '社区停车位预约系统，支持二维码签到；管理端与 H5 前端采用 Deno 优先架构——零 node_modules。',
+          '社区停车位预约系统，支持扫码签到；管理端与 H5 前端采用 Deno 优先架构——零 node_modules。',
         tags: ['Spring Boot', 'Vue 3', 'Deno', 'QR Code', 'MySQL', 'H5'],
         accent: 'yellow' as const,
         icon: 'car' as const,
         live: '',
         role: '全栈开发工程师',
         highlights: [
-          '构建社区停车的预约、分配与二维码签到流程',
+          '构建社区停车的预约、分配与扫码签到全流程',
           'Deno 优先的管理端 + H5 前端——无 node_modules，极简工具链',
           'Spring Boot 后端，提供简洁的 REST API',
         ],
@@ -290,7 +290,7 @@ export const zh: Messages = {
   },
   journey: {
     comment: '$ git log --graph --pretty=career',
-    heading: '职业历程，版本可控',
+    heading: '职业历程，全程可追溯',
     sub: '每一次提交，都有真实交付。',
     entries: [
       {
@@ -346,7 +346,7 @@ export const zh: Messages = {
   certifications: {
     comment: '// credentials.verify() ✓ 全部有效',
     heading: '专业认证与协会会员',
-    sub: '独立考试认证，持续更新维护。',
+    sub: '均为独立考试获取，持续有效。',
     newBadge: '最新',
     certs: [
       {
@@ -382,7 +382,7 @@ export const zh: Messages = {
   education: {
     comment: '// education.ts',
     heading: '教育背景',
-    sub: '两个硕士学位，一个优秀毕业生，没有捷径。',
+    sub: '两个硕士学位，一次 Distinction 优秀毕业，没有捷径。',
     items: [
       {
         degree: '计算机科学硕士',
@@ -410,7 +410,7 @@ export const zh: Messages = {
   contact: {
     comment: '// status: open_to_work',
     heading: '一起构建值得交付的产品。',
-    sub: '目前正开放新的工作机会——软件工程、技术管理及数据/机器学习方向。可应要求提供推荐人。',
+    sub: '目前正在寻求新的职业机会——软件工程、技术管理及数据/机器学习方向。可应要求提供推荐人。',
     sendEmail: '发送邮件',
     footer: '© 2026 Zhifei Mi · zhifeis.tech',
     builtWith: '使用 React、TypeScript 与 Tailwind 构建 · 部署于 Vercel',
