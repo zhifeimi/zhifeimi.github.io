@@ -290,7 +290,7 @@ export const zh: Messages = {
   },
   journey: {
     comment: '$ git log --graph --pretty=career',
-    heading: '职业历程，全程可追溯',
+    heading: '职业历程，版本可控',
     sub: '每一次提交，都有真实交付。',
     entries: [
       {
@@ -346,7 +346,7 @@ export const zh: Messages = {
   certifications: {
     comment: '// credentials.verify() ✓ 全部有效',
     heading: '专业认证与协会会员',
-    sub: '均为独立考试获取，持续有效。',
+    sub: '独立考试认证，持续更新维护。',
     newBadge: '最新',
     certs: [
       {
