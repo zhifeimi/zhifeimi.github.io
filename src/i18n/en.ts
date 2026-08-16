@@ -294,9 +294,9 @@ export const en = {
       {
         hash: 'e7a3f91',
         type: 'role' as const,
-        title: 'Project Manager · Software Group Leader',
+        title: 'Software Group Leader',
         org: 'China DataCom Corporation Limited',
-        period: 'Jul 2019 — Sep 2022',
+        period: 'Mar 2021 — Sep 2022',
         bullets: [
           'Led a cross-functional team on enterprise web platforms — owned end-to-end delivery from requirements to production rollout',
           'Defined code review, branching, CI/CD and defect-triage processes, measurably improving delivery predictability',
@@ -308,11 +308,11 @@ export const en = {
         type: 'role' as const,
         title: 'Software Engineer',
         org: 'China DataCom Corporation Limited',
-        period: 'Jul 2017 — Jul 2019',
+        period: 'Jul 2017 — Mar 2021',
         bullets: [
           'Delivered Java/Spring services and Vue.js/jQuery frontends across telecom and government projects',
           'Administered Linux servers; improved monitoring, error handling and incident recovery',
-          'Promoted to Project Manager · Software Group Leader in July 2019 for technical leadership and on-time delivery',
+          'Promoted to Software Group Leader in March 2021 for technical leadership and on-time delivery',
         ],
       },
       {

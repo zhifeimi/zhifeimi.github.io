@@ -26,3 +26,6 @@ dist-ssr
 # Local reference symlinks (not part of the site)
 Career
 Projects
+
+# Local job-application workspace (not part of the site)
+_jobapp/
