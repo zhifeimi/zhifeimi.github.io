@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+deno.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -29,3 +33,4 @@ Projects
 
 # Local job-application workspace (not part of the site)
 _jobapp/
+

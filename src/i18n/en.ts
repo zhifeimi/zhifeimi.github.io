@@ -14,6 +14,7 @@ export const en = {
     hi: "Hi, I'm",
     name: 'Zhifei Mi',
     roles: [
+      'Project Manager',
       'Software Engineer',
       'Technical Lead',
       'ML Data Analyst',
@@ -25,7 +26,7 @@ export const en = {
     viewProjects: 'View Projects',
     getInTouch: 'Get in Touch',
     card: {
-      role: 'Software Engineer · Technical Lead',
+      role: 'Project Manager · Software Engineer · Technical Lead',
       location: 'NSW, Australia',
       stack: 'Java · Python · TypeScript',
     },
