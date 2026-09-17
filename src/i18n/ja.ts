@@ -28,7 +28,7 @@ export const ja: Messages = {
     getInTouch: 'お問い合わせ',
     card: {
       role: 'ソフトウェアエンジニア・テクニカルリード',
-      location: 'オーストラリア・シドニー',
+      location: 'オーストラリア・ニューサウスウェールズ',
       stack: 'Java · Python · TypeScript',
     },
     terminal: [

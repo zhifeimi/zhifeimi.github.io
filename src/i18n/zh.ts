@@ -28,7 +28,7 @@ export const zh: Messages = {
     getInTouch: '联系我',
     card: {
       role: '软件工程师 · 技术负责人',
-      location: '澳大利亚 · 悉尼',
+      location: '澳大利亚 · 新南威尔士',
       stack: 'Java · Python · TypeScript',
     },
     terminal: [

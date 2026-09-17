@@ -26,7 +26,7 @@ export const en = {
     getInTouch: 'Get in Touch',
     card: {
       role: 'Software Engineer · Technical Lead',
-      location: 'Sydney, Australia',
+      location: 'NSW, Australia',
       stack: 'Java · Python · TypeScript',
     },
     terminal: [
