@@ -16,6 +16,7 @@ export const ja: Messages = {
     hi: 'こんにちは、',
     name: 'Zhifei Mi',
     roles: [
+      'プロジェクトマネージャー',
       'ソフトウェアエンジニア',
       'テクニカルリード',
       'MLデータアナリスト',
@@ -27,7 +28,7 @@ export const ja: Messages = {
     viewProjects: 'プロジェクトを見る',
     getInTouch: 'お問い合わせ',
     card: {
-      role: 'ソフトウェアエンジニア・テクニカルリード',
+      role: 'プロジェクトマネージャー · ソフトウェアエンジニア · テクニカルリード',
       location: 'オーストラリア・ニューサウスウェールズ',
       stack: 'Java · Python · TypeScript',
     },

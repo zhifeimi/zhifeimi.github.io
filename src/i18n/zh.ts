@@ -16,6 +16,7 @@ export const zh: Messages = {
     hi: '你好，我是',
     name: 'Zhifei Mi',
     roles: [
+      '项目经理',
       '软件工程师',
       '技术负责人',
       '机器学习数据分析师',
@@ -27,7 +28,7 @@ export const zh: Messages = {
     viewProjects: '查看项目',
     getInTouch: '联系我',
     card: {
-      role: '软件工程师 · 技术负责人',
+      role: '项目经理 · 软件工程师 · 技术负责人',
       location: '澳大利亚 · 新南威尔士',
       stack: 'Java · Python · TypeScript',
     },
